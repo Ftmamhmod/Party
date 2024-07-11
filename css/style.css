@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+
+}
+
+/* Main section */
+section.home {
+  background-image: linear-gradient(
+      rgba(214, 46, 51, 0.6),
+      rgba(214, 46, 51, 0.6)
+    ),
+    url(../images/events-heavenly-header.jpg);
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+}
+section main h2 {
+    font-size: 100px;
+}
+/* Nav */
+nav {
+  width: 20%;
+  background-color: #111111;
+  min-height: 100vh;
+  transform: translateX(-100%);
+}
+nav a {
+  color: white;
+}
+nav a:hover {
+  color: #5b1513;
+  transition: all 0.5s;
+}
+nav span {
+  position: absolute;
+  right: -110px;
+  top: 50%;
+}
+
+/* singers */
+section .singers {
+  background-color: #e68285;
+}
+.singers .inner {
+  display: none;
+}
+
+/* countdown */
+.countDown {
+  background-image: linear-gradient(
+      rgba(214, 46, 51, 0.6),
+      rgba(214, 46, 51, 0.6)
+    ),
+    url(../images/invitation-2508607__340.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.countDown .tim {
+    border: white 1px solid ;
+}
+
+
+/* contact Us */
+#contact-us .contactUs{
+    background-color: #e68285;
+}
+.text-red{
+color: #D62E33;
+}
+#contact-us button{
+  background-color: #D62E33;
+  color: white;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  border: white 1px solid ; 
+}
